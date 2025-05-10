@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kantor Hukum ARP</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Helvetica', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50; /* Dark blue-gray color */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #34495e; /* Lighter blue-gray */
+            padding: 15px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 8px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12; /* Gold color for hover */
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x600'); /* Replace with actual hero image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Main content section */
+        .section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Service Grid */
+        .services-grid {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            padding: 30px;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .service-item p {
+            font-size: 1.1em;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .services-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-item {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            .hero h2 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Kantor Hukum ARP</h1>
+    <p>Solusi Hukum yang Tepat dan Profesional</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#about">Tentang Kami</a></li>
+        <li><a href="#contact">Kontak</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+    <h2>Memberikan Solusi Hukum yang Tepat untuk Anda</h2>
+    <p>Dengan pengalaman dan komitmen kami, Kantor Hukum ARP siap memberikan layanan hukum yang terbaik untuk memenuhi kebutuhan Anda.</p>
+</div>
+
+<!-- Services Section -->
+<div class="section" id="services">
+    <h2>Layanan Kami</h2>
+    <div class="services-grid">
+        <div class="service-item">
+            <h3>Litigasi Pidana & Perdata</h3>
+            <p>Dengan pengalaman luas di bidang litigasi, kami memberikan solusi hukum dalam berbagai kasus pidana dan perdata.</p>
+        </div>
+        <div class="service-item">
+            <h3>Kepailitan & PKPU</h3>
+            <p>Menangani kepailitan dan PKPU, membantu klien menemukan solusi yang tepat untuk menjaga kepentingan mereka.</p>
+        </div>
+        <div class="service-item">
+            <h3>Hukum Tata Usaha Negara</h3>
+            <p>Kami menyediakan layanan untuk menyelesaikan sengketa administratif dengan instansi pemerintah secara efektif dan efisien.</p>
+        </div>
+    </div>
+</div>
+
+<!-- About Us Section -->
+<div class="section" id="about">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah kantor hukum yang mengedepankan strategi dan integritas untuk memberikan solusi hukum yang sesuai dengan kebutuhan klien. Dengan pengalaman bertahun-tahun, kami percaya bahwa setiap masalah hukum membutuhkan pendekatan yang cermat dan berbasis bukti.</p>
+</div>
+
+<!-- Contact Section -->
+<div class="section" id="contact">
+    <h2>Kontak Kami</h2>
+    <p>Alamat: Montana Aparthouse, Jalan KH. Muhasim Raya No.22, Blok O & N, Cilandak Barat, Jakarta Selatan 12430.</p>
+    <p>Telp: 0856-5566-1007 | Email: <a href="mailto:rdpajs@icloud.com">rdpajs@icloud.com</a></p>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Kantor Hukum ARP | <a href="#">Syarat & Ketentuan</a> | <a href="#">Kebijakan Privasi</a></p>
+</footer>
+
+</body>
+</html>
