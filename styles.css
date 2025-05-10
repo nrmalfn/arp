@@ -338,4 +338,54 @@ footer a:hover {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+/* Managing Partner Section */
+.managing-partner .mp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    flex-wrap: wrap;
+}
+
+.managing-partner .mp-photo img {
+    width: 260px;
+    max-width: 90vw;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(44,62,80,0.15);
+    background: #f4f4f4;
+    object-fit: cover;
+}
+
+.managing-partner .mp-bio {
+    flex: 1;
+    min-width: 260px;
+    text-align: left;
+}
+
+.managing-partner .mp-bio h3 {
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+.managing-partner .mp-bio p {
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.7;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .managing-partner .mp-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .managing-partner .mp-bio {
+        text-align: center;
+    }
 } 
